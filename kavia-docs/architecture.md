@@ -27,6 +27,12 @@ The containers and their interactions align with a clear separation of concerns,
   - Form validation
   - Loading and error states
   - Responsive design with modern styling
+  - **Contact me Button:** A floating-action style button labeled "Contact me" is located at the top right of the primary navigation bar. Its purpose is to offer users a means of expressing feedback or inquiries in future versions; currently, clicking the button triggers a notification at the top of the screen with a placeholder message: "thanks for contacting. Under development". The notification automatically disappears after a short time (approx. 2 seconds).
+
+    **Placement and Interaction:**  
+    The button is consistently placed within the navigation bar's rightmost section, styled with an accent color to make it visually distinct from navigation links. When users click this button, a transient notification ("snackbar"/toast) appears near the top right of the application window, providing immediate feedback.
+
+    This addition demonstrates how the application supports extensible UI actions and rapid prototyping of user engagement features.
 - **Structure:** 
   - `src/` directory with components, views, and store.
   - Page routing (with Vue Router) for home, about, create/edit/list views.
